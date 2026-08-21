@@ -97,6 +97,8 @@ Check out [miningos-tpl-wrk-miner](https://github.com/tetherto/miningos-tpl-wrk-
 ## Configuration
 Generic: https://github.com/tetherto/miningos-tpl-wrk-thing/blob/main/README.md#configuration
 
+**`miner.overwriteCredsWithDefault`** (optional, boolean): when `true`, `miner.defaultUsername` / `miner.defaultPassword` are used for every miner connection, overriding per-miner `opts.username` / `opts.password`. Nothing is written to the device or to the stored thing opts — set it back to `false` and per-miner credentials apply again.
+
 ## Usage
 
 ### Starting the Worker
